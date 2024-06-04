@@ -1,0 +1,49 @@
++---------------------+
+|       Address       |
++---------------------+
+| - Street: string    |
+| - City: string      |
+| - State: string     |
+| - Country: string   |
++---------------------+
+| + GetAddressString(): string |
++---------------------+
+
++---------------------+
+|        Event        |
++---------------------+
+| - Title: string     |
+| - Description: string|
+| - Date: DateTime    |
+| - Time: string      |
+| - Address: Address  |
++---------------------+
+| + GetStandardDetails(): string |
+| + GetFullDetails(): string     |
+| + GetShortDescription(): string|
++---------------------+
+
++---------------------+
+|      Lecture        |
++---------------------+
+| - Speaker: string   |
+| - Capacity: int     |
++---------------------+
+| + GetFullDetails(): string     |
++---------------------+
+
++---------------------+
+|      Reception      |
++---------------------+
+| - RSVPEmail: string |
++---------------------+
+| + GetFullDetails(): string     |
++---------------------+
+
++---------------------+
+| OutdoorGathering    |
++---------------------+
+| - WeatherForecast: string |
++---------------------+
+| + GetFullDetails(): string     |
++---------------------+

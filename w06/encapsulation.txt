@@ -1,0 +1,42 @@
++---------------------+
+|       Product       |
++---------------------+
+| - Name: string      |
+| - ProductId: string |
+| - Price: double     |
+| - Quantity: int     |
++---------------------+
+| + GetTotalCost(): double |
++---------------------+
+
++---------------------+
+|      Address        |
++---------------------+
+| - Street: string    |
+| - City: string      |
+| - State: string     |
+| - Country: string   |
++---------------------+
+| + IsInUSA(): bool   |
+| + GetAddressString(): string |
++---------------------+
+
++---------------------+
+|     Customer        |
++---------------------+
+| - Name: string      |
+| - Address: Address  |
++---------------------+
+| + IsInUSA(): bool   |
++---------------------+
+
++---------------------+
+|       Order         |
++---------------------+
+| - Products: List<Product> |
+| - Customer: Customer |
++---------------------+
+| + GetTotalCost(): double |
+| + GetPackingLabel(): string |
+| + GetShippingLabel(): string |
++---------------------+

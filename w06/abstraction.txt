@@ -1,0 +1,21 @@
++-----------------+
+|     Video       |
++-----------------+
+| - Title: string |
+| - Author: string|
+| - Length: int   |
+| - Comments: List<Comment>|
++-----------------+
+| + GetNumberOfComments(): int |
+| + AddComment(comment: Comment): void |
+| + DisplayVideoInfo(): void |
++-----------------+
+
++------------------+
+|     Comment      |
++------------------+
+| - CommenterName: string |
+| - CommentText: string   |
++------------------+
+| + DisplayComment(): string |
++------------------+
